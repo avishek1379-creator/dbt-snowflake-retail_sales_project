@@ -1,0 +1,19 @@
+country_code,country_name,iso_numeric,continent
+US,United States,840,North America
+CA,Canada,124,North America
+MX,Mexico,484,North America
+BR,Brazil,76,South America
+AR,Argentina,32,South America
+CL,Chile,152,South America
+GB,United Kingdom,826,Europe
+DE,Germany,276,Europe
+FR,France,250,Europe
+IT,Italy,380,Europe
+ES,Spain,724,Europe
+IN,India,356,Asia
+CN,China,156,Asia
+JP,Japan,392,Asia
+AU,Australia,36,Oceania
+ZA,South Africa,710,Africa
+NG,Nigeria,566,Africa
+EG,Egypt,818,Africa

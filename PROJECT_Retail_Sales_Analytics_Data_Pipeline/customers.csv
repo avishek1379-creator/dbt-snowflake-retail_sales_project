@@ -1,0 +1,5 @@
+customer_id,customer_name,email,country
+501,John Doe,john.doe@example.com,USA
+502,Emily Clark,emily.clark@example.com,Canada
+503,Ravi Kumar,ravi.kumar@example.com,India
+504,Sophia Lee,sophia.lee@example.com,Singapore

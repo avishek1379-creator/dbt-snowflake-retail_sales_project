@@ -1,0 +1,19 @@
+country_code,region_id,region_name
+US,1,North America
+CA,1,North America
+MX,1,North America
+BR,2,Latin America
+AR,2,Latin America
+CL,2,Latin America
+GB,3,Europe
+DE,3,Europe
+FR,3,Europe
+IT,3,Europe
+ES,3,Europe
+IN,4,Asia-Pacific
+CN,4,Asia-Pacific
+JP,4,Asia-Pacific
+AU,4,Asia-Pacific
+ZA,5,Africa
+NG,5,Africa
+EG,5,Africa

@@ -1,0 +1,26 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: "Dimension table containing cleaned customer data"
+    columns:
+      - name: customer_id
+        description: "Unique key for the customer"
+        tests:
+          - unique
+          - not_null
+
+  - name: fact_sales
+    description: "Fact table for sales data"
+    columns:
+      - name: order_item_id
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_id
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: customer_id
