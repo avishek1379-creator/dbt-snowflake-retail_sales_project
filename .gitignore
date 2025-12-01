@@ -1,0 +1,16 @@
+# dbt local metadata
+target/
+logs/
+dbt_packages/
+
+# IDE/project files
+.idea/
+.vscode/
+
+# User-specific config
+~/.dbt/
+profiles.yml
+
+# Python env (if using dbt-core)
+venv/
+.env

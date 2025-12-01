@@ -1,0 +1,25 @@
+name: "retail_sales_project"
+version: "1.0"
+profile: "snowflake_profile"
+
+
+models:
+  retail_sales_project:
+    +materialized: table
+    staging:
+      +schema: "STAGING"
+    marts:
+      +schema: "MART"
+
+snapshots:
+  +target_schema: "DW"
+  
+seeds:
+  +schema: SEED
+  +quote_columns: false
+
+  retail_sales_project:
+    sales_region:
+      column_types:
+        region_id: integer
+        region_name: varchar(50)
